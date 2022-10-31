@@ -1,14 +1,13 @@
 {
   "name": "webhook_youtube_discord",
   "version": "1.0.1",
-  "description": "",
+  "description": "An application that monitors BWC Members' YouTube channels for new uploads and posts them to Discord through a webhook.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "Patrick Pedersen",
-  "license": "ISC",
+  "keywords": ["Discord", "YouTube", "Webhook"],
+  "author": "Patrick",
   "dependencies": {
     "discord.js": "^13.8.1",
     "rss-parser": "^3.12.0",
