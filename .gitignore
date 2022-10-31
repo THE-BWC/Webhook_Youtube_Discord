@@ -1,0 +1,10 @@
+# Ignore Idea files
+/.idea
+*.iml
+
+# Ignore Modules
+/node_modules
+
+# Ignore Bot Files
+package-lock.json
+Youtube-API-Discord.log

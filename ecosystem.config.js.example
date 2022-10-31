@@ -1,0 +1,11 @@
+module.exports = {
+    apps : [{
+        name   : "Webhook_Youtube_Discord",
+        script : "./index.js",
+        env: {
+            NODE_ENV: "production",
+            WEBHOOK_URL: "",
+        },
+        restart_delay: 4000
+    }]
+}

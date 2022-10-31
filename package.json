@@ -1,0 +1,17 @@
+{
+  "name": "webhook_youtube_discord",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Patrick Pedersen",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "rss-parser": "^3.12.0",
+    "winston": "^3.8.1"
+  }
+}
