@@ -1,4 +1,4 @@
-# Youtube Discord Webhook
+# YouTube Discord Webhook
 A simple node.js application that monitors BWC Members' YouTube channels for new videos and posts them to a Discord channel using a webhook.
 
 ## Requirements
