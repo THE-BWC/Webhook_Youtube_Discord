@@ -52,16 +52,10 @@ The application uses the `winston` logger to log messages to the console and to 
 4. Create a pull request.
 5. Enjoy!
 
-## License
-All rights reserved to Black Widow Company. This repository is for internal use only. No redistribution is allowed.  
-[<img alt="Black Widow Company" height="50" src="https://the-bwc.com/PAO/BannerStandard.png"/>](https://www.the-bwc.com)
-
-
-## Disclaimer
-If you are not a member of Black Widow Company, you are not allowed to use, modify or distribute any of the files in this repository without the express permission of the S-1 Technical Officer or the S-1 Officer in Charge.
-
 ## Contact
-If you have any questions, feel free to contact me on Discord: `[BWC] Patrick#4943`, or on the [BWC Discord server](https://discord.com/invite/the-bwc) or the [BWC forums](https://the-bwc.com/forum/index.php).
+If you have any questions, feel free to contact me on:
+- [BWC Discord](https://discord.the-bwc.com/) `[BWC] Patrick`
+- [BWC Forums](https://the-bwc.com/forum/index.php) `Patrick`.
 
 ## Credits
 - [Black Widow Company](https://www.the-bwc.com) - Development
