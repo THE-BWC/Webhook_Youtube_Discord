@@ -9,21 +9,12 @@ const parser = new Parser()
  */
 let logger = Winston.createLogger({
     transports: [
-        new Winston.transports.File({ filename: 'Youtube-API-Discord.log' })
+        new Winston.transports.Console({ format: Winston.format.simple() })
     ],
     format: Winston.format.printf((log) => `[${new Date().toLocaleString()}] - [${log.level.toUpperCase()}] - ${log.message}`)
 })
 
-/**
- * Outputs to console during Development
- */
-if (process.env.NODE_ENV !== 'production') {
-    logger.add(new Winston.transports.Console({
-        format: Winston.format.simple()
-    }))
-}
-const startAt = 1657625400000
-//const startAt = Date.now();
+const startAt = Date.now();
 logger.info(startAt)
 let lastCachedVideos = {};
 
