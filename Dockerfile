@@ -3,7 +3,9 @@ FROM node:22-bullseye-slim
 ARG NODE_ENV=production
 ENV NODE_ENV=$NODE_ENV
 
-RUN npm i npm@latest -g
+#RUN npm i npm@latest -g
+# Temp Fix to NPM issues on Node 22.22.2
+RUN npm install -g npm@~11.10.0
 
 USER node
 
